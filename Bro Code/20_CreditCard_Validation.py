@@ -9,16 +9,16 @@
 
 card_number=input("Enter your card number ")
 print(card_number)
-card_number=card_number[ : :-1]
+card_number=card_number[ : :-1] #Reverse korche
 print(card_number)
 sum=0
 digitSumEven=0
 digitSumOdd=0
-card_number=card_number.replace("-","")
+card_number=card_number.replace("-","") 
 card_number=card_number.replace(" ","")
-for i in card_number[::2]:
+for i in card_number[::2]:  #odd
     digitSumOdd+=int(i)
-for i in card_number[1::2]:
+for i in card_number[1::2]: #even
     x=int(i)*2
     if x>10:
         digitSumEven+=(1+(x%10))
