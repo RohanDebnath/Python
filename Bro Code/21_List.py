@@ -1,4 +1,4 @@
-#Ordered Changable Duplicate is OK
+#List [] Ordered Changable Duplicate is OK
 
 fruits=["Apples","Banana","Orange","Lichu"]
 print(fruits)
